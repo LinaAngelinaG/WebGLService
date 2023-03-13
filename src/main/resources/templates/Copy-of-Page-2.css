@@ -1,0 +1,223 @@
+ .u-section-1 {
+  min-height: 826px;
+}
+
+.u-section-1 .u-shape-1 {
+  height: 375px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.u-section-1 .u-shape-2 {
+  width: 677px;
+  height: 566px;
+  background-image: none;
+  margin: -180px auto 0 calc(((100% - 1140px) / 2) + 224px);
+}
+
+.u-section-1 .u-image-1 {
+  width: 675px;
+  height: 512px;
+  margin: -761px auto 0 calc(((100% - 1140px) / 2));
+}
+
+.u-section-1 .u-group-1 {
+  min-height: 443px;
+  width: 596px;
+  margin: -254px calc(((100% - 1140px) / 2)) 60px auto;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px 60px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 3.75rem;
+  font-family: "Sulphur Point";
+  font-weight: 700;
+  line-height: 1;
+  margin: 0;
+}
+
+.u-section-1 .u-text-2 {
+  line-height: 1.8;
+  margin: 20px 0 0;
+}
+
+.u-section-1 .u-text-3 {
+  margin: 20px 325px 0 0;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: solid;
+  padding: 0;
+}
+
+.u-section-1 .u-btn-2 {
+  background-image: none;
+  border-style: none;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin: 36px auto 0 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-shape-1 {
+    margin-left: initial;
+  }
+
+  .u-section-1 .u-shape-2 {
+    width: 605px;
+    height: 544px;
+    margin-top: -158px;
+    margin-right: calc(((100% - 940px) / 2) + 111px);
+    margin-left: auto;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 630px;
+    height: 478px;
+    margin-left: calc(((100% - 940px) / 2));
+  }
+
+  .u-section-1 .u-group-1 {
+    min-height: 424px;
+    width: 470px;
+    margin-top: -201px;
+    margin-right: calc(((100% - 940px) / 2));
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 2.8125rem;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 199px;
+  }
+}
+
+@media (max-width: 991px) {
+   .u-section-1 {
+    min-height: 845px;
+  }
+
+  .u-section-1 .u-shape-2 {
+    width: 454px;
+    height: 573px;
+    margin-right: calc(((100% - 720px) / 2) + 111px);
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 562px;
+    height: 445px;
+    margin-top: -790px;
+    margin-left: calc(((100% - 720px) / 2));
+  }
+
+  .u-section-1 .u-group-1 {
+    min-height: 434px;
+    width: 378px;
+    margin-top: -162px;
+    margin-right: calc(((100% - 720px) / 2));
+    margin-bottom: 79px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 2.25rem;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 107px;
+  }
+}
+
+@media (max-width: 767px) {
+   .u-section-1 {
+    min-height: 828px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    height: 312px;
+    margin-left: initial;
+  }
+
+  .u-section-1 .u-shape-2 {
+    width: 368px;
+    height: 550px;
+    margin-top: -95px;
+    margin-right: auto;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 416px;
+    height: 376px;
+    margin-top: -767px;
+    margin-left: calc(((100% - 540px) / 2));
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 332px;
+    margin-top: -93px;
+    margin-right: calc(((100% - 540px) / 2));
+    margin-bottom: 60px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 61px;
+  }
+}
+
+@media (max-width: 575px) {
+   .u-section-1 {
+    min-height: 803px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    height: 257px;
+    margin-left: initial;
+  }
+
+  .u-section-1 .u-shape-2 {
+    width: 288px;
+    height: 531px;
+    margin-top: -39px;
+    margin-left: calc(((100% - 340px) / 2));
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 295px;
+    height: 312px;
+    margin-top: -748px;
+    margin-left: calc(((100% - 340px) / 2));
+  }
+
+  .u-section-1 .u-group-1 {
+    min-height: 431px;
+    width: 307px;
+    margin-top: -35px;
+    margin-right: calc(((100% - 340px) / 2));
+    margin-bottom: 86px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.875rem;
+  }
+}
