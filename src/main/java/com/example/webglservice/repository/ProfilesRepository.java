@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public interface ProfileRepository extends CrudRepository<Profile, Integer> {
+public interface ProfilesRepository extends CrudRepository<Profile, Integer> {
     @Override
     Profile save(Profile profile);
     List<Profile> getUserByNickName(String name);

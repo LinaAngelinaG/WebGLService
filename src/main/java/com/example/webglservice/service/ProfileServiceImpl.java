@@ -2,29 +2,36 @@ package com.example.webglservice.service;
 
 import com.example.webglservice.model.Profile;
 import com.example.webglservice.model.ProfileDto;
-import com.example.webglservice.repository.ProfileRepository;
+import com.example.webglservice.repository.ProfilesRepository;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
 public class ProfileServiceImpl implements ProfileService{
     //@Autowired
-    private final ProfileRepository repository;
-    private Long id = 1l;
+    private final ProfilesRepository repository;
+    @Getter
+    private Integer id=1;
     @Override
     public ProfileDto createProfile(ProfileDto profileDto){
         Profile profile = getProfile(profileDto);
-        profile.setId(id);
-        ++id;
         Profile savedProfile = repository.save(profile);
+        id = savedProfile.getId();
         ProfileDto restoresProfileDto = getProfileDto(savedProfile);
         return restoresProfileDto;
+    }
+
+    @Override
+    public Profile createProfile(Profile profile) {
+        Profile savedProfile = repository.save(profile);
+        ProfileDto savedProfileDto = getProfileDto(savedProfile);
+        id = savedProfile.getId();
+        return savedProfile;
     }
 
     @Override

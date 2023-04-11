@@ -1,0 +1,6 @@
+-- INSERT INTO Profiles VALUES
+--                         (1, 'Vassily Petrov', 'vpetrov@jr.com'),
+--                         (2, 'Pjotr Vasechkin', 'pvasechkin@jr.com');
+-- INSERT INTO FragmentShaders VALUES
+--                         (1, 324,3235,'Vassirov', 'vpecom', 765,98,9023,411,1234),
+--                         (2, 4567,768, 'Pkin', 'pvcom',  742365,342,43,21123,4545);

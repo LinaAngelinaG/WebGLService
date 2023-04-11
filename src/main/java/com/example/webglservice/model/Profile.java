@@ -1,36 +1,37 @@
 package com.example.webglservice.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.*;
 
-import javax.persistence.Column;
-import javax.persistence.Table;
 
-@Entity
+
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Getter
-@Setter
-@Builder
-@Table(name="profile")
+@Entity
+@Table(name="profiles")
 public class Profile {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Integer id;
 
-    @Column(name = "nick", nullable = false)
+    @Column(name = "nick_name", nullable = false)
     private String nickName;
 
     @Column(name = "hash", nullable = false)
     private String hash;
 
+//    @JoinColumn(name="fragment_shader_id", referencedColumnName = "id")
+//    @OneToOne
+//    @JoinColumn(name = "fragment_shader_id")
+//    private FragmentShader fragmentShader = null;
+
     public Profile(String nickName, String hash){
         this.nickName = nickName;
         this.hash = hash;
     }
+
+
 
 //    @Column(name = "atr1", nullable = false)
 //    private String atr1;
